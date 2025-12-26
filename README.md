@@ -33,7 +33,8 @@ Este proyecto está orientado a reforzar conceptos básicos de ciberseguridad de
 - No guarda ni registra contraseñas ingresadas
 
 ---
-##Criterios de evaluación
+## Criterios de evaluación
+
 La contraseña es analizada según los siguientes criterios:
 
 Longitud
