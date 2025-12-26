@@ -1,21 +1,26 @@
 # Password Security Checker (CLI)
 
-Proyecto en Python enfocado en el análisis de la seguridad de contraseñas, aplicando principios básicos de ciberseguridad y buenas prácticas en la gestión de credenciales.
+Descripción
 
-El sistema evalúa contraseñas ingresadas por el usuario mediante distintos criterios de fortaleza y proporciona retroalimentación clara, **sin almacenar contraseñas reales**.
+Password Security Checker es una aplicación de línea de comandos desarrollada en Python que evalúa la seguridad de una contraseña a partir de criterios fundamentales de ciberseguridad.
+El sistema analiza la estructura de la contraseña y proporciona una puntuación junto con un nivel de seguridad claro para el usuario
 
+Este proyecto tiene fines educativos y prácticos, enfocado en reforzar conceptos de programación en Python y fundamentos de seguridad informática
 ---
 
 ## Objetivo del proyecto
 
 Desarrollar una herramienta educativa que permita:
 
-- Analizar la fortaleza de una contraseña
-- Identificar riesgos comunes en contraseñas débiles
-- Promover buenas prácticas de seguridad informática
-- Aplicar lógica de validación y estructuración en Python
+Evaluar contraseñas de forma automática
 
-Este proyecto está orientado a reforzar conceptos básicos de **ciberseguridad defensiva**.
+Aplicar criterios reales de seguridad
+
+Practicar buenas prácticas de programación
+
+Construir experiencia práctica para portafolio profesional
+
+Este proyecto está orientado a reforzar conceptos básicos de ciberseguridad defensiva
 
 ---
 
@@ -28,14 +33,35 @@ Este proyecto está orientado a reforzar conceptos básicos de **ciberseguridad 
 - No guarda ni registra contraseñas ingresadas
 
 ---
+Criterios de evaluación
+La contraseña es analizada según los siguientes criterios:
 
+Longitud
+
+Menos de 8 caracteres → insegura
+
+8 a 11 caracteres → aceptable
+
+12 o más caracteres → fuerte
+
+Uso de letras
+
+Letras mayúsculas
+
+Letras minúsculas
+
+Uso de números
+
+Uso de caracteres especiales
+Ejemplo: !@#$%^&*()-_=+[]{};:,.<>?/
 ## Tecnologías utilizadas
+Python 3
 
-- Python
-- Programación estructurada
-- Conceptos básicos de ciberseguridad
-- Git y GitHub
+Programación modular
 
+Lógica condicional
+
+Análisis de cadenas de texto (strings)
 ---
 
 ## Estado del proyecto
