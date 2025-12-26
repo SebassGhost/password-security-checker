@@ -67,5 +67,16 @@ Análisis de cadenas de texto (strings)
 
 ## Estado del proyecto
 
+## Cómo ejecutar el proyecto
+
+1: Clonar el repositorio:
+git clone https://github.com/SebassGhost/password-security-checker.git
+
+2: Acceder a la carpeta del proyecto:
+cd password-security-checker
+
+3:Ejecutar el programa:
+python main.py
+
 🟡 En desarrollo  
 Actualmente se encuentra en fase de diseño y estructuración del sistema antes de su implementación completa
